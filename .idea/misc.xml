@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/rpcprovider/pom.xml" />
         <option value="$PROJECT_DIR$/rpctest/pom.xml" />
       </set>
     </option>

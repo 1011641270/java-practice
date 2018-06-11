@@ -7,8 +7,9 @@
     <file url="file://$PROJECT_DIR$/java-related/src/main/java/com/guava/cache/TestGuavaCache.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpctest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpctest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpcprovider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

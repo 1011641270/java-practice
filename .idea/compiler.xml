@@ -10,6 +10,9 @@
         <module name="java-related" />
         <module name="netty" />
         <module name="rpc" />
+        <module name="rpc-provider" />
+        <module name="rpcprovider" />
+        <module name="starter" />
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>
@@ -19,7 +22,10 @@
       <module name="java-related" target="1.8" />
       <module name="netty" target="1.8" />
       <module name="rpc" target="1.8" />
+      <module name="rpc-provider" target="1.8" />
+      <module name="rpcprovider" target="1.8" />
       <module name="rpctest" target="1.8" />
+      <module name="starter" target="1.8" />
       <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
