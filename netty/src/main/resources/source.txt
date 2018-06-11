@@ -1,0 +1,40 @@
+V1:
+telnet localhost 7397
+
+V2:
+telnet localhost 7397
+可以获取请求数据
+
+V3:
+telnet localhost 7397
+可以获取请求数据 服务器自动解码数据
+
+V4:
+telnet localhost 7397
+服务器获取并发送数据
+
+V5:
+telnet localhost 7397
+服务器获取并发送数据,服务器自己编码，解码
+
+V6:
+telnet localhost 7397
+1.客户端连接服务器，服务器发送连接信息
+2.客户端发送信息
+3.服务器保存所有客户端连接，群发“客户端发送的信息”
+
+V7:
+1.首先开启服务器
+2.启动NettyClient，连接服务器
+
+V8:
+1.首先开启服务器
+2.启动NettyClient，连接服务器
+3.服务器发送数据给客户端，客户端可接收并展示数据
+
+V9:
+1.加载Spring的时候自动加载Netty服务
+
+websocket:
+1.用浏览器打开多个websocket.html
+2.输入内容就可以实现聊天机制

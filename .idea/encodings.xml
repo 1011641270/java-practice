@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-related" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-related/src/main/java/com/guava/cache/TestGuavaCache.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpctest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpctest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
