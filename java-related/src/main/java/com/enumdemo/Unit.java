@@ -11,7 +11,7 @@ import com.exception.ParseException;
  */
 public enum Unit {
 
-    
+
     TEST1 {
         public String getName() {
             return "TEST1";
