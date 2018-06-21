@@ -7,7 +7,7 @@
 package com.rpc.inter;
 
 /**
- * @author 田躲躲(hztianduoduo@corp.netease.com)
+ * @author 田躲躲(tian_dd@yeah.net)
  */
 public interface RpcServiceDemo {
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter_manager>
+    <filter key="filter_key_1">
+        <optType>6</optType>
+        <optValue>清单</optValue>
+    </filter>
+</filter_manager>

@@ -10,7 +10,7 @@ import com.rpc.inter.RpcServiceDemo;
 import com.rpc.server.RpcService;
 
 /**
- * @author 田躲躲(hztianduoduo@corp.netease.com)
+ * @author 田躲躲(tian_dd@yeah.net)
  */
 @RpcService(RpcServiceDemo.class)
 public class RpcServiceDemoImpl implements RpcServiceDemo{

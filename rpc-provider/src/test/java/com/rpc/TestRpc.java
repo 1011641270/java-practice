@@ -16,7 +16,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @author 田躲躲(hztianduoduo@corp.netease.com)
+ * @author 田躲躲(tian_dd@yeah.net)
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:rpc-context.xml"})
