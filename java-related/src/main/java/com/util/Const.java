@@ -24,4 +24,28 @@ public enum Const {
         return null;
     }
 
+
+
+    public static void main(String[] args) {
+        test();
+
+    }
+
+    public static void test(){
+
+        final boolean existsFeeDealOrder;
+
+        int i=1;
+        while(true){
+            i++;
+            if(i==5){
+                break;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("sssssss");
+
+    }
+
 }

@@ -1,17 +1,13 @@
 package com.tian.zookeeper;
 
-import java.util.List;
-
-import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
 
 public class ZkNodeOperation {
 	
 	public static void main(String args[])throws Exception{
-        String zkServer = "127.0.0.1:2181";
+        String zkServer = "kaola-test-kchedulezk01.v1.kaola.jdb.vpc:2181,kaola-test-kchedulezk02.v1.kaola.jdb.vpc:2181,kaola-test-kchedulezk03.v1.kaola.jdb.vpc:2181";
         
         ZooKeeper zk = new ZooKeeper(zkServer,6000,new Watcher(){
                 @Override
@@ -31,13 +27,13 @@ public class ZkNodeOperation {
         //取出子节点列表
         //System.out.println("\ntestDir1的子节点列表为："+zk.getChildren("/dubbo/com.tian.provider.HelloServiceDemo", true));        
         
-        //System.out.println(zk.getChildren("/", true));
+        System.out.println(zk.getChildren("/kschedule", false));
         //System.out.println(zk.getChildren("/dubbo", true));
-        System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloServiceDemo", true));
-        System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloService", true));
-        System.out.println(zk.getChildren("/dubbo/com.alibaba.dubbo.monitor.MonitorService", true));
+        //System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloServiceDemo", true));
+        //System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloService", true));
+        //System.out.println(zk.getChildren("/dubbo/com.alibaba.dubbo.monitor.MonitorService", true));
         
-        System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloServiceDemo/providers", true));
+        //System.out.println(zk.getChildren("/dubbo/com.tian.provider.HelloServiceDemo/providers", true));
         
         
         //取出节点的数据
@@ -52,6 +48,7 @@ public class ZkNodeOperation {
         zk.delete("/testDir1/sub1", -1);  */      
         
         //System.out.println("\ntestDir1的子节点列表为：" + zk.getChildren("/testDir1", true));
+        zk.close();
 }
 
 }
